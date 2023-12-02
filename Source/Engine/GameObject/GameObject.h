@@ -2,10 +2,11 @@
 #pragma once
 #include <memory>
 #include <vector>
+#include "../IUpdateable.h"
 
 class ComponentBase;
 
-class GameObject
+class GameObject : public IUpdateable
 {
 
 public:
