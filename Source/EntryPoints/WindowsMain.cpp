@@ -91,6 +91,8 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 		delete Graphics;
 	}
 
+	Sleep(0.01666666666);
+
 	return static_cast<int>(msg.wParam);
 }
 
